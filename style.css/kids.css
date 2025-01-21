@@ -50,7 +50,7 @@
     text-decoration: none;
 }
 
-.home {
+.header-wrapper .home {
     color: #FEA301;
     font-size: 1.25rem;
     font-style: normal;
@@ -82,7 +82,7 @@
     line-height: 30px;
 }
 
-.btn-primary {
+.header-wrapper .btn-primary {
     padding: 10px 24px;
     border-radius: 12px;
     background: #FEA301;
@@ -93,4 +93,224 @@
     line-height: 30px;
     border: none;
 
+}
+
+/* ====start banner part style===== */
+.header-wrapper .content {
+    max-width: 640px;
+    margin-top: 120px;
+}
+
+.header-wrapper .empowering {
+    color: #FEA301;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.header-wrapper .student {
+    color: #111;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.header-wrapper .vision {
+    color: #01ACFD;
+
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.header-wrapper .banner-description {
+    color: #111;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.header-wrapper .button {
+    padding: 10px;
+    border-radius: 12px;
+    background: #111;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.header-wrapper .banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img img {
+    width: 100%;
+    /* max-width: 310px; */
+
+}
+
+/* ====start curriculym style part */
+.curriculum-section {
+    background-image: url('../assets/bg.png');
+}
+
+.curriculum-section .card-section {
+    display: flex;
+    gap: 28px;
+}
+
+.curriculum-section .standard-curriculum h2 {
+    color: #000;
+    text-align: center;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.5px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+.curriculum-section .card-box1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+
+    padding: 52px 40px;
+}
+
+
+.curriculum-section .card-title {
+    color: #202020;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px;
+    margin-top: 32px;
+}
+
+.curriculum-section .card-description {
+    color: #808080;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px;
+    margin-bottom: 34px;
+    margin-top: 34px;
+
+}
+
+.curriculum-section .card-box2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+
+    padding: 52px 40px;
+}
+
+.curriculum-section .card-box3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    padding: 52px 40px;
+
+}
+
+.curriculum-section .read-more {
+    color: #64C8FF;
+
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+
+.curriculum-section .read-more a {
+    text-decoration: none;
+}
+
+
+.curriculum-section .readmore {
+    color: #F0AA00;
+
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+
+}
+
+.curriculum-section .readmore a {
+    text-decoration: none;
+}
+
+.curriculum-section .more {
+    color: #8700FF;
+
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+
+.curriculum-section .more a {
+    text-decoration: none;
+}
+
+/* ======responsive part */
+@media screen and (max-width:767px) {
+
+    .header-wrapper .banner {
+        flex-direction: column-reverse;
+    }
+
+    .header-wrapper .content {
+        text-align: center;
+    }
+
+    .header-wrapper .banner-title {
+        font-size: 2rem;
+    }
+
+    .header-wrapper .banner-description {
+        font-size: 1.1rem;
+    }
+
+    .curriculum-section .card-section {
+        flex-direction: column;
+
+    }
 }
