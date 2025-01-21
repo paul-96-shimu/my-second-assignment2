@@ -44,6 +44,8 @@
 
 .humber {
     display: none;
+    width: 30px;
+    height: 30px
 }
 
 .header-wrapper .header-navber {
@@ -362,7 +364,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    border-radius: 16px 16px 0px 0px;
+
 }
 
 .our-stories .grid-container img {
@@ -429,13 +431,13 @@
 }
 
 
-.card-box-child {
+.our-stories .card-box-child {
     border-radius: 16px;
     background: #FFF;
     position: relative;
 }
 
-.card-box-child-content {
+.our-stories .card-box-child-content {
     padding: 0 38px 28px 37px;
 }
 
@@ -444,7 +446,7 @@
     border-radius: 16px 16px 0px 0px;
 }
 
-.card-section-title {
+.our-stories .card-section-title {
     color: #000;
     font-size: 1.1rem;
     font-style: normal;
@@ -477,7 +479,7 @@
 
 
 
-.card-date-card {
+.our-stories .card-date-card {
     color: #FFF;
     font-family: Raleway;
     font-size: 15.339px;
@@ -488,7 +490,7 @@
     text-transform: capitalize;
 }
 
-.view-all {
+.our-stories .view-all {
     border-radius: 12px;
     background: #111;
     width: 197px;
@@ -500,11 +502,10 @@
     line-height: 30px;
 }
 
-.stories-btn {
+.our-stories .stories-btn {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 60px;
-
 }
 
 /* ====start footer section==== */
@@ -514,13 +515,13 @@
 
 }
 
-.footer-section .header-logo {
+.footer-part .header-logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.footer-section .kids {
+.footer-part .kids {
     color: #FFF;
     font-size: 2.68rem;
     font-style: normal;
@@ -528,7 +529,7 @@
     line-height: 39.509px;
 }
 
-.footer-section .kids-descriptions {
+.footer-part .kids-descriptions {
     color: #FFF;
     font-family: Quicksand;
     font-size: 1.25rem;
@@ -540,14 +541,14 @@
 }
 
 
-.footer {
+.footer-part .footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 158px;
 }
 
-.about {
+.footer-part .about {
     color: #FFF;
 
     font-family: Quicksand;
@@ -558,7 +559,7 @@
     margin-bottom: 32px;
 }
 
-.home {
+.footer-part .home {
     color: #FFF;
 
     font-family: Quicksand;
@@ -569,7 +570,7 @@
     margin-top: 20px;
 }
 
-.social-part h2 {
+.footer-part .social-part h2 {
     color: #FFF;
 
     font-family: Quicksand;
@@ -580,13 +581,10 @@
     margin-bottom: 32px;
 }
 
-.social-icon img {
+.footer-part .social-icon img {
     gap: 10px;
 }
 
-.marquee {
-    margin-top: 60px;
-}
 
 /* ======responsive part */
 @media screen and (max-width:576px) {
@@ -597,6 +595,7 @@
 
     .nav-bar {
         border: 0.5px solid var(--Orange, #FEA301);
+        padding: 12px;
     }
 
     .header-logo h2,
@@ -612,10 +611,9 @@
 
     .humber {
         display: block;
-        padding: 20px;
-        width: 30px;
-        height: 30px;
+        margin: 8px;
     }
+
 
     .header-wrapper .content {
         text-align: center;
@@ -626,6 +624,9 @@
     }
 
 
+    .standard-curriculum h2 {
+        font-size: 1.5rem;
+    }
 
     .header-wrapper .banner-description {
         font-size: 1.1rem;
@@ -643,12 +644,12 @@
 
     .footer {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 80 px;
 
     }
 
-    .footer-part {
-        padding: 157px 12px 405px 21px;
+    .card-section-title {
+        font-size: 9.133px;
+        ;
     }
+
 }
