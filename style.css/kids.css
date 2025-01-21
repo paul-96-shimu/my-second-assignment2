@@ -32,6 +32,20 @@
     gap: 15px;
 }
 
+.header-wrapper .header-logo h2 {
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.humber {
+    display: none;
+}
+
 .header-wrapper .header-navber {
     display: flex;
     align-items: center;
@@ -180,8 +194,7 @@
 }
 
 .curriculum-section .card-box1 {
-    display: flex;
-    justify-content: center;
+
     text-align: center;
 
     border-radius: 18.864px;
@@ -218,8 +231,7 @@
 }
 
 .curriculum-section .card-box2 {
-    display: flex;
-    justify-content: center;
+
     text-align: center;
 
     border-radius: 18.864px;
@@ -231,8 +243,7 @@
 }
 
 .curriculum-section .card-box3 {
-    display: flex;
-    justify-content: center;
+
     text-align: center;
 
     border-radius: 18.864px;
@@ -244,7 +255,7 @@
 }
 
 .curriculum-section .read-more {
-    color: #64C8FF;
+
 
     text-align: center;
     font-family: Quicksand;
@@ -256,6 +267,8 @@
 
 .curriculum-section .read-more a {
     text-decoration: none;
+    color: #64C8FF;
+
 }
 
 
@@ -273,10 +286,11 @@
 
 .curriculum-section .readmore a {
     text-decoration: none;
+    color: #F0AA00;
 }
 
 .curriculum-section .more {
-    color: #8700FF;
+
 
     text-align: center;
     font-family: Quicksand;
@@ -288,45 +302,53 @@
 
 .curriculum-section .more a {
     text-decoration: none;
+    color: #8700FF;
 }
 
-/* 
-.fa-solid {
+
+.symbol {
 
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
-    background: var(--Orange, #FEA301);
-    color: #FFF;
+    gap: 10px;
+    margin-top: 80px;
+    padding: 17px 0px 19px 0px;
 
-    text-align: center;
-    font-family: "Font Awesome 5 Free";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 24px;
 }
 
-.fa-solid2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
+.arrow i {
     background: var(--Orange, #FEA301);
+    border-radius: 30px;
+    width: 60px;
+    padding: 17px 0px 19px 0px;
     color: #FFF;
-
     text-align: center;
     font-family: "Font Awesome 5 Free";
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 900;
     line-height: 24px;
 
-} */
+}
+
+
+
 /* =====start stories section style======= */
 .our-stories {
     background-image: url('../assets/bg.png'), linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
+
+}
+
+.our-stories .stories h3 {
+    color: #000;
+    text-align: center;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.5px;
+    margin-top: 60px;
+    margin-bottom: 80px;
 
 }
 
@@ -343,57 +365,51 @@
     border-radius: 16px 16px 0px 0px;
 }
 
-.grid-container img {
+.our-stories .grid-container img {
     border-radius: 16px 16px 0px 0px;
     width: 100%;
 }
 
-.card {
+.our-stories .card {
     border-radius: 16px;
     background: #FFF;
+    position: relative;
 }
 
 
-.card-content {
+.our-stories .card-content {
     padding: 0px 68px 34px 38px;
 }
 
-.card img {
+.our-stories .card img {
     width: 100%;
-    height: auto;
-    /* display: block; */
     border-radius: 16px 16px 0px 0px;
 }
 
 #card-botton {
     padding: 14.38px 18.876px 15.339px 19.174px;
-    border-radius: 12px;
-
-    font-style: normal;
-    font-weight: 500;
+    border-radius: 47px;
     background: #3CD8E8;
     border: none;
-    margin-top: -25px;
+    position: absolute;
+    margin-top: -70px;
 }
 
 
-.card-date {
-
-
+.our-stories .card-date {
     color: #FFF;
-
     font-weight: 500;
     border-radius: 12px;
     font-size: 1.1rem;
     text-align: right;
+    font-style: normal;
 }
 
 
-.card-title-card {
+.our-stories .card-title-card {
     color: #000;
-
     font-family: Quicksand;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 38.347px;
@@ -401,22 +417,204 @@
 
 }
 
-.card-description-card {
+.our-stories .card-description-card {
     color: #666;
 
     font-family: Raleway;
-    font-size: 15.339px;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 28.761px;
     margin-top: 48px;
 }
 
+
+.card-box-child {
+    border-radius: 16px;
+    background: #FFF;
+    position: relative;
+}
+
+.card-box-child-content {
+    padding: 0 38px 28px 37px;
+}
+
+.our-stories .card-box-child img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card-section-title {
+    color: #000;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.761px;
+    margin-top: 19px;
+
+}
+
+#card-botton-card1 {
+    border-radius: 47.934px;
+    background: #95B226;
+    padding: 5px 19px;
+    border: none;
+    position: absolute;
+    margin-top: -45px;
+
+
+}
+
+#card-botton-card2 {
+    border-radius: 47.934px;
+    background: #5D58F0;
+    padding: 5px 19px;
+    border: none;
+    position: absolute;
+    margin-top: -45px;
+
+}
+
+
+
+.card-date-card {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.761px;
+    /* 187.5% */
+    text-transform: capitalize;
+}
+
+.view-all {
+    border-radius: 12px;
+    background: #111;
+    width: 197px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.stories-btn {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+}
+
+/* ====start footer section==== */
+.footer-part {
+    background: #01ACFD;
+    padding: 123px 140px;
+
+}
+
+.footer-section .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-section .kids {
+    color: #FFF;
+    font-size: 2.68rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.509px;
+}
+
+.footer-section .kids-descriptions {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+    max-width: 406px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 158px;
+}
+
+.about {
+    color: #FFF;
+
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.home {
+    color: #FFF;
+
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.social-part h2 {
+    color: #FFF;
+
+    font-family: Quicksand;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.social-icon img {
+    gap: 10px;
+}
+
+.marquee {
+    margin-top: 60px;
+}
+
 /* ======responsive part */
-@media screen and (max-width:767px) {
+@media screen and (max-width:576px) {
 
     .header-wrapper .banner {
         flex-direction: column-reverse;
+    }
+
+    .nav-bar {
+        border: 0.5px solid var(--Orange, #FEA301);
+    }
+
+    .header-logo h2,
+    .header-wrapper .home,
+    .About,
+    .Facilities,
+    .Admission,
+    .btn-primary,
+    .symbol,
+    .card {
+        display: none;
+    }
+
+    .humber {
+        display: block;
+        padding: 20px;
+        width: 30px;
+        height: 30px;
     }
 
     .header-wrapper .content {
@@ -427,6 +625,8 @@
         font-size: 2rem;
     }
 
+
+
     .header-wrapper .banner-description {
         font-size: 1.1rem;
     }
@@ -434,5 +634,21 @@
     .curriculum-section .card-section {
         flex-direction: column;
 
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 80 px;
+
+    }
+
+    .footer-part {
+        padding: 157px 12px 405px 21px;
     }
 }
