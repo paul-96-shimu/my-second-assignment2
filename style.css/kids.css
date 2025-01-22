@@ -15,7 +15,7 @@
 }
 
 .container {
-    max-width: 1160px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 60px;
 }
@@ -45,9 +45,9 @@
 
 .humber {
     display: none;
-    width: 30px;
-    height: 30px
+
 }
+
 
 .header-wrapper .header-navber {
     display: flex;
@@ -171,7 +171,7 @@
 
 .hero-img img {
     width: 100%;
-    /* max-width: 310px; */
+
 
 }
 
@@ -350,14 +350,13 @@
     font-style: normal;
     font-weight: 700;
     line-height: 57.5px;
-    margin-top: 60px;
-    margin-bottom: 80px;
 
 }
 
 .our-stories .stories-section {
     display: flex;
     gap: 20px;
+    padding: 60px 0px;
 
 }
 
@@ -367,6 +366,7 @@
     gap: 20px;
 
 }
+
 
 .our-stories .grid-container img {
     border-radius: 16px 16px 0px 0px;
@@ -387,7 +387,7 @@
 }
 
 .our-stories .card img {
-    width: 100%;
+
     border-radius: 16px 16px 0px 0px;
 }
 
@@ -444,10 +444,6 @@
     padding: 0 38px 28px 37px;
 }
 
-.our-stories .card-box-child img {
-    width: 100%;
-    border-radius: 16px 16px 0px 0px;
-}
 
 .our-stories .card-section-title {
     color: #000;
@@ -464,6 +460,7 @@
     background: #95B226;
     padding: 5px 19px;
     border: none;
+
     position: absolute;
     margin-top: -45px;
 
@@ -489,7 +486,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 28.761px;
-    /* 187.5% */
     text-transform: capitalize;
 }
 
@@ -586,28 +582,19 @@
     margin-bottom: 32px;
 }
 
+
 .marquee {
     font-size: 20px;
     color: #F0AA00;
+    background-color: #DEF5FF;
 }
 
-/* 
-.footer-part .social-part {
-    display: flex;
-    flex-direction: column;
-    width: 40.613px;
-    height: 40px;
-    padding: 10px 10.294px 10px 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-} */
 
 
-/* ======responsive part */
+/* ======responsive part====  */
 @media screen and (max-width:576px) {
     .container {
-        padding: 0px;
+        padding: 2px;
     }
 
     .header-wrapper .banner {
@@ -654,9 +641,27 @@
         font-size: 1.1rem;
     }
 
+    .curriculum-section .card-title {
+        font-size: 1.1rem;
+    }
+
+    .curriculum-section .standard-curriculum h2 {
+        font-size: 1.6rem;
+    }
+
     .curriculum-section .card-section {
         flex-direction: column;
 
+    }
+
+    .our-stories .card-date-card {
+        font-size: 9.13px;
+    }
+
+
+
+    .our-stories .card-section-title {
+        font-size: 9.13px;
     }
 
     .grid-container {
@@ -665,16 +670,15 @@
 
 
     .footer {
+
         flex-direction: column;
-        gap: 100px;
-
-
     }
 
     .card-section-title {
         font-size: 9.133px;
 
     }
+
 
     .footer-part {
         padding: 65px 20px 20px 60px;
