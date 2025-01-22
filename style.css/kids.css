@@ -691,6 +691,13 @@
 
     }
 
+    .footer-part .kids {
+        font-size: 2.23rem;
+    }
+
+    .footer-part .kids-descriptions {
+        font-size: 1.1rem;
+    }
 
     .footer-part {
         padding: 65px 20px 20px 60px;
