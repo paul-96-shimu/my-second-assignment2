@@ -598,7 +598,7 @@
 /* ======responsive part====  */
 @media screen and (max-width:576px) {
     .container {
-        padding: 2px;
+        padding: 20px;
     }
 
     .header-wrapper .banner {
@@ -676,7 +676,7 @@
     }
 
 
-    .footer {
+    .footer-part .footer {
 
         flex-direction: column;
         gap: 30px;
