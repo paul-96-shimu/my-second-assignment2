@@ -371,321 +371,322 @@
 .our-stories .grid-container img {
     border-radius: 16px 16px 0px 0px;
 
+}
 
-    .our-stories .card {
-        border-radius: 16px;
-        background: #FFF;
-        position: relative;
+.our-stories .card {
+    border-radius: 16px;
+    background: #FFF;
+    position: relative;
+
+}
+
+
+.our-stories .card-content {
+    padding: 0px 68px 34px 38px;
+
+}
+
+.our-stories .card img {
+
+    border-radius: 16px 16px 0px 0px;
+}
+
+#card-botton {
+    padding: 14.38px 18.876px 15.339px 19.174px;
+    border-radius: 47px;
+    background: #3CD8E8;
+    border: none;
+    position: absolute;
+    margin-top: -70px;
+}
+
+
+.our-stories .card-date {
+    color: #FFF;
+    font-weight: 500;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    text-align: right;
+    font-style: normal;
+}
+
+
+.our-stories .card-title-card {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.347px;
+    margin-top: 36px;
+
+}
+
+.our-stories .card-description-card {
+    color: #666;
+
+    font-family: Raleway;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.761px;
+    margin-top: 48px;
+}
+
+
+.our-stories .card-box-child {
+    border-radius: 16px;
+    background: #FFF;
+    position: relative;
+}
+
+.our-stories .card-box-child-content {
+    padding: 0 38px 28px 37px;
+}
+
+
+.our-stories .card-section-title {
+    color: #000;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.761px;
+    margin-top: 19px;
+
+}
+
+#card-botton-card1 {
+    border-radius: 47.934px;
+    background: #95B226;
+    padding: 5px 19px;
+    border: none;
+
+    position: absolute;
+    margin-top: -45px;
+
+
+}
+
+#card-botton-card2 {
+    border-radius: 47.934px;
+    background: #5D58F0;
+    padding: 5px 19px;
+    border: none;
+    position: absolute;
+    margin-top: -45px;
+
+}
+
+
+
+.our-stories .card-date-card {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.761px;
+    text-transform: capitalize;
+}
+
+.our-stories .view-all {
+    border-radius: 12px;
+    background: #111;
+    width: 197px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.our-stories .stories-btn {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+/* ====start footer section==== */
+.footer-part {
+    background: #01ACFD;
+    padding: 123px 140px;
+
+
+}
+
+.footer-part .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-part .kids {
+    color: #FFF;
+    font-size: 2.68rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.509px;
+}
+
+.footer-part .kids-descriptions {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+    max-width: 406px;
+}
+
+
+.footer-part .footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 158px;
+    margin-bottom: 60px;
+}
+
+.footer-part .about {
+    color: #FFF;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.footer-part .home {
+    color: #FFF;
+
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.footer-part .social-part h2 {
+    color: #FFF;
+
+    font-family: Quicksand;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+
+.marquee {
+    font-size: 20px;
+    color: #F0AA00;
+    background-color: #DEF5FF;
+}
+
+
+
+/* ======responsive part====  */
+@media screen and (max-width:576px) {
+    .container {
+        padding: 20px;
+    }
+
+    .header-wrapper .banner {
+        flex-direction: column-reverse;
+    }
+
+    .nav-bar {
+        border: 0.5px solid #FEA301;
+        padding: 12px 16px;
 
     }
 
-
-    .our-stories .card-content {
-        padding: 0px 68px 34px 38px;
-
+    .header-logo h2,
+    .header-wrapper .home,
+    .About,
+    .Facilities,
+    .Admission,
+    .btn-primary,
+    .symbol,
+    .card {
+        display: none;
     }
 
-    .our-stories .card img {
-
-        border-radius: 16px 16px 0px 0px;
-    }
-
-    #card-botton {
-        padding: 14.38px 18.876px 15.339px 19.174px;
-        border-radius: 47px;
-        background: #3CD8E8;
-        border: none;
-        position: absolute;
-        margin-top: -70px;
+    .humber {
+        display: block;
+        margin: 8px;
     }
 
 
-    .our-stories .card-date {
-        color: #FFF;
-        font-weight: 500;
-        border-radius: 12px;
-        font-size: 1.1rem;
-        text-align: right;
-        font-style: normal;
+    .header-wrapper .content {
+        text-align: center;
+    }
+
+    .header-wrapper .empowering,
+    .header-wrapper .student,
+    .header-wrapper .vision {
+        font-size: 2rem;
     }
 
 
-    .our-stories .card-title-card {
-        color: #000;
-        font-family: Quicksand;
+    .standard-curriculum h2 {
         font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 38.347px;
-        margin-top: 36px;
-
     }
 
-    .our-stories .card-description-card {
-        color: #666;
-
-        font-family: Raleway;
+    .header-wrapper .banner-description {
         font-size: 1.1rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 28.761px;
-        margin-top: 48px;
     }
 
-
-    .our-stories .card-box-child {
-        border-radius: 16px;
-        background: #FFF;
-        position: relative;
+    .curriculum-section .card-title {
+        font-size: 1.1rem;
     }
 
-    .our-stories .card-box-child-content {
-        padding: 0 38px 28px 37px;
+    .curriculum-section .standard-curriculum h2 {
+        font-size: 1.6rem;
     }
+
+    .curriculum-section .card-section {
+        flex-direction: column;
+
+
+    }
+
+    .our-stories .card-date-card {
+        font-size: 9.13px;
+    }
+
 
 
     .our-stories .card-section-title {
-        color: #000;
-        font-size: 1.1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 28.761px;
-        margin-top: 19px;
-
+        font-size: 9.13px;
     }
 
-    #card-botton-card1 {
-        border-radius: 47.934px;
-        background: #95B226;
-        padding: 5px 19px;
-        border: none;
-
-        position: absolute;
-        margin-top: -45px;
-
-
-    }
-
-    #card-botton-card2 {
-        border-radius: 47.934px;
-        background: #5D58F0;
-        padding: 5px 19px;
-        border: none;
-        position: absolute;
-        margin-top: -45px;
-
-    }
-
-
-
-    .our-stories .card-date-card {
-        color: #FFF;
-        font-family: Raleway;
-        font-size: 15.339px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 28.761px;
-        text-transform: capitalize;
-    }
-
-    .our-stories .view-all {
-        border-radius: 12px;
-        background: #111;
-        width: 197px;
-        padding: 10px;
-        color: #FFF;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 30px;
-    }
-
-    .our-stories .stories-btn {
-        text-align: center;
-        margin-top: 80px;
-        margin-bottom: 60px;
-    }
-
-    /* ====start footer section==== */
-    .footer-part {
-        background: #01ACFD;
-        padding: 123px 140px;
-
-
-    }
-
-    .footer-part .header-logo {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .footer-part .kids {
-        color: #FFF;
-        font-size: 2.68rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 39.509px;
-    }
-
-    .footer-part .kids-descriptions {
-        color: #FFF;
-        font-family: Quicksand;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 35px;
-        max-width: 406px;
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
     .footer-part .footer {
-        display: flex;
-        align-items: flex-start;
-        gap: 158px;
-        margin-bottom: 60px;
+
+        flex-direction: column;
+        gap: 30px;
+
     }
 
-    .footer-part .about {
-        color: #FFF;
-        font-family: Quicksand;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin-bottom: 32px;
-    }
+    .card-section-title {
+        font-size: 9.133px;
 
-    .footer-part .home {
-        color: #FFF;
-
-        font-family: Quicksand;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        margin-top: 20px;
-    }
-
-    .navbar li {
-        list-style: none;
-    }
-
-    .footer-part .social-part h2 {
-        color: #FFF;
-
-        font-family: Quicksand;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 26px;
-        margin-bottom: 32px;
     }
 
 
-    .marquee {
-        font-size: 20px;
-        color: #F0AA00;
-        background-color: #DEF5FF;
+    .footer-part {
+        padding: 65px 20px 20px 60px;
     }
-
-
-
-    /* ======responsive part====  */
-    @media screen and (max-width:576px) {
-        .container {
-            padding: 20px;
-        }
-
-        .header-wrapper .banner {
-            flex-direction: column-reverse;
-        }
-
-        .nav-bar {
-            border: 0.5px solid #FEA301;
-            padding: 12px 16px;
-
-        }
-
-        .header-logo h2,
-        .header-wrapper .home,
-        .About,
-        .Facilities,
-        .Admission,
-        .btn-primary,
-        .symbol,
-        .card {
-            display: none;
-        }
-
-        .humber {
-            display: block;
-            margin: 8px;
-        }
-
-
-        .header-wrapper .content {
-            text-align: center;
-        }
-
-        .header-wrapper .empowering,
-        .header-wrapper .student,
-        .header-wrapper .vision {
-            font-size: 2rem;
-        }
-
-
-        .standard-curriculum h2 {
-            font-size: 1.5rem;
-        }
-
-        .header-wrapper .banner-description {
-            font-size: 1.1rem;
-        }
-
-        .curriculum-section .card-title {
-            font-size: 1.1rem;
-        }
-
-        .curriculum-section .standard-curriculum h2 {
-            font-size: 1.6rem;
-        }
-
-        .curriculum-section .card-section {
-            flex-direction: column;
-
-
-        }
-
-        .our-stories .card-date-card {
-            font-size: 9.13px;
-        }
-
-
-
-        .our-stories .card-section-title {
-            font-size: 9.13px;
-        }
-
-        .grid-container {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-
-        .footer-part .footer {
-
-            flex-direction: column;
-            gap: 30px;
-
-        }
-
-        .card-section-title {
-            font-size: 9.133px;
-
-        }
-
-
-        .footer-part {
-            padding: 65px 20px 20px 60px;
-        }
-    }
+}
