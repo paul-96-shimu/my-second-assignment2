@@ -543,8 +543,8 @@
 
 .footer-part .footer {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+
     gap: 158px;
     margin-bottom: 60px;
 }
@@ -553,7 +553,7 @@
     color: #FFF;
 
     font-family: Quicksand;
-
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -569,6 +569,10 @@
     font-weight: 500;
     line-height: normal;
     margin-top: 20px;
+}
+
+.navbar li {
+    list-style: none;
 }
 
 .footer-part .social-part h2 {
@@ -652,6 +656,7 @@
     .curriculum-section .card-section {
         flex-direction: column;
 
+
     }
 
     .our-stories .card-date-card {
@@ -672,6 +677,8 @@
     .footer {
 
         flex-direction: column;
+        gap: 30px;
+
     }
 
     .card-section-title {
